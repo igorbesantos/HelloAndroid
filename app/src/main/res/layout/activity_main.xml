@@ -8,6 +8,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:labelFor="@+id/tLogin"
         android:text="@string/user" />
 
     <EditText
@@ -16,11 +17,13 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
+        android:importantForAutofill="no"
         android:singleLine="true" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:labelFor="@+id/tPassword"
         android:text="@string/password" />
 
     <EditText
@@ -28,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:importantForAutofill="no"
         android:inputType="numberPassword" />
 
     <Button
